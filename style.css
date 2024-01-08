@@ -1,0 +1,54 @@
+.title-text-box {
+
+    border: 2px solid black;
+    
+    border-radius: 10px; /* set the radius value to define the curve */
+    
+    padding: 10px;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(53, 93, 202);
+    margin-top: 2cm;
+    margin-bottom: .5cm;
+
+    font-family: 'Optima', monospace;
+    
+    }
+
+body {
+        background-color: #212121;
+
+    }
+
+    .concept-text-box {
+
+        border: 2px solid black;
+        
+        border-radius: 10px; /* set the radius value to define the curve */
+        
+        padding: 10px;
+        max-width: 10%;
+        background-color: rgb(53, 93, 202);
+        margin-top: .5 cm;
+        font-family: 'Optima', monospace;
+
+
+        }
+
+        .explanation-text-box {
+
+            border: 2px solid black;
+            
+            border-radius: 10px; /* set the radius value to define the curve */
+            
+            padding: 10px;
+            max-width: 10%;
+            background-color: rgb(53, 93, 202);
+            margin-top: .5cm;
+            font-family: 'Optima', monospace;
+
+
+            }
+    
+    
