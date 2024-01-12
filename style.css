@@ -1,92 +1,70 @@
-.title-text-box {
-
-    border: 2px solid black;
-    
-    border-radius: 10px; /* set the radius value to define the curve */
-    
-    padding: 10px;
-    max-width: 50%;
-    text-align: center;
-    margin: auto;
-    background-color: rgb(53, 93, 202);
-    margin-top: 2cm;
-    margin-bottom: .5cm;
-
-    font-family: 'Optima', monospace;
-    
-    }
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
 
 body {
-        background-color: #212121;
+    font-family: 'Optima', sans-serif;
+    background-color: #212121;
+    color: #fff;
+}
 
-    }
+/* Improve title-box styling */
+.title-text-box {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px; /* Increase padding for better spacing */
+    max-width: 70%; /* Adjust max-width for better responsiveness */
+    text-align: center;
+    margin: 2cm auto 1cm auto; /* Use 'auto' for vertical margin */
+    background-color: rgb(53, 93, 202);
+}
 
-    .concept-text-box {
+/* Enhance concept and explanation boxes styling */
+.concept-text-box,
+.explanation-text-box {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px; /* Increase padding for better spacing */
+    max-width: 30%; /* Adjust max-width for better responsiveness */
+    background-color: rgb(53, 93, 202);
+    margin: 0.5cm auto 2cm auto; /* Use 'auto' for vertical margin */
+    text-align: center;
+}
 
-        border: 2px solid black;
-        
-        border-radius: 10px; /* set the radius value to define the curve */
-        
-        padding: 10px;
-        max-width: 20%;
-        background-color: rgb(53, 93, 202);
-        margin-top: .5 cm;
-        font-family: 'Optima', monospace;
-        text-align: center;
-
-        margin: auto;
-
-
-        }
-
-        .explanation-text-box {
-
-            border: 2px solid black;
-            
-            border-radius: 10px; /* set the radius value to define the curve */
-            
-            padding: 10px;
-            max-width: 10%;
-            background-color: rgb(53, 93, 202);
-            margin-top: .5cm;
-            font-family: 'Optima', monospace;
-            margin-bottom: 2cm;
-
-
-            }
+/* Improve button styling */
 button {
-                margin: 10px; /* Add some margin to space out the buttons */
-                padding: 10px 20px;
-                background-color: #0077b6;
-                color: #fff;
-                border: none;
-                cursor: pointer;
-         }
-              
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Add border-radius for a more rounded button */
+}
+
 button:hover {
-                background-color: #023e8a;
-              }
+    background-color: #023e8a;
+}
 
-              .flex-container {
-                display: flex;
-            }
-            
-            .flex-child {
-                flex: 1;
-                border: 1px solid rgb(247, 247, 244);
-                border-radius: 10px; /* set the radius value to define the curve */
+/* Enhance flex container styling */
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between flex items */
+    margin: 20px auto; /* Use 'auto' for vertical margin */
+}
 
-            }  
-            
-            .flex-child:first-child {
-                margin-right: 20px;
-                border-radius: 10px; /* set the radius value to define the curve */
+.flex-child {
+    flex: 1;
+    border: 1px solid rgb(247, 247, 244);
+    border-radius: 10px;
+    padding: 15px; /* Increase padding for better spacing */
+}
 
-            } 
-
-            img {
-                width: 400px;
-                height: auto;
-              }
-  
-    
+/* Improve image styling */
+img {
+    width: 100%; /* Make images responsive within their containers */
+    height: auto;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
