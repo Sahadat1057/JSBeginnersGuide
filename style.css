@@ -19,12 +19,72 @@ body {
     background-color: rgb(53, 93, 202);
 }
 
+.title-text-box2 {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px; /* Increase padding for better spacing */
+    max-width: 70%; /* Adjust max-width for better responsiveness */
+    text-align: center;
+    margin: 2cm auto 1cm auto; /* Use 'auto' for vertical margin */
+    background-color: rgb(236, 121, 44);
+}
+
+.title-text-box3 {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px; /* Increase padding for better spacing */
+    max-width: 70%; /* Adjust max-width for better responsiveness */
+    text-align: center;
+    margin: 2cm auto 1cm auto; /* Use 'auto' for vertical margin */
+    background-color: rgb(145, 34, 173);
+}
+
+.title-text-box4 {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px; /* Increase padding for better spacing */
+    max-width: 70%; /* Adjust max-width for better responsiveness */
+    text-align: center;
+    margin: 2cm auto 1cm auto; /* Use 'auto' for vertical margin */
+    background-color: rgb(228, 40, 40);
+}
+
+
 .concept-text-box {
     border: 2px solid black;
     border-radius: 10px;
     padding: 15px; /* Increase padding for better spacing */
     max-width: 30%; /* Adjust max-width for better responsiveness */
     background-color: rgb(53, 93, 202);
+    margin: 0.5cm auto 1cm auto; /* Use 'auto' for vertical margin */
+    text-align: center;
+}
+
+.concept-text-box2 {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px; /* Increase padding for better spacing */
+    max-width: 30%; /* Adjust max-width for better responsiveness */
+    background-color: rgb(236, 121, 44);
+    margin: 0.5cm auto 1cm auto; /* Use 'auto' for vertical margin */
+    text-align: center;
+}
+.concept-text-box3 {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px; /* Increase padding for better spacing */
+    max-width: 30%; /* Adjust max-width for better responsiveness */
+    background-color: rgb(145, 34, 173);
+    margin: 0.5cm auto 1cm auto; /* Use 'auto' for vertical margin */
+    text-align: center;
+}
+
+.concept-text-box4 {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px; /* Increase padding for better spacing */
+    max-width: 30%; /* Adjust max-width for better responsiveness */
+    background-color: rgb(228, 40, 40);
     margin: 0.5cm auto 1cm auto; /* Use 'auto' for vertical margin */
     text-align: center;
 }
@@ -38,6 +98,41 @@ body {
     margin: .5cm auto 2cm auto; /* Use 'auto' for vertical margin */
     text-align: left;
 }
+
+.explanation-text-box2 {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px; /* Increase padding for better spacing */
+    max-width: 30%; /* Adjust max-width for better responsiveness */
+    background-color: rgb(236, 121, 44);
+    margin: .5cm auto 2cm auto; /* Use 'auto' for vertical margin */
+    text-align: left;
+}
+
+
+.explanation-text-box3 {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px; /* Increase padding for better spacing */
+    max-width: 30%; /* Adjust max-width for better responsiveness */
+    background-color: rgb(145, 34, 173);
+
+    margin: .5cm auto 2cm auto; /* Use 'auto' for vertical margin */
+    text-align: left;
+}
+
+
+.explanation-text-box4 {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px; /* Increase padding for better spacing */
+    max-width: 30%; /* Adjust max-width for better responsiveness */
+    background-color: rgb(228, 40, 40);
+
+    margin: .5cm auto 2cm auto; /* Use 'auto' for vertical margin */
+    text-align: left;
+}
+
 
 button {
     margin: 10px;
